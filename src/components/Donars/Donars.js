@@ -19,7 +19,7 @@ const Donars = (props) => {
        <h6> Email  : {email}</h6>
        <h6> City   : {city}</h6>
        <h6> Country : {country}</h6>
-       <h6> Donate : ${donate}</h6>
+       <h6> Charge Per Movie : ${donate}</h6>
        
        {/* add onclick */}
        <button onClick={()=>props.addToCart(props.donar)}  type="button" className="btn btn-warning my-2 "> {element} add to cart</button>
