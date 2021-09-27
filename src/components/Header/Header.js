@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo .PNG'
+import logo from '../../images/logo.PNG'
 import './Header.css'
 const Header = () => {
   return (
@@ -11,9 +11,8 @@ const Header = () => {
 
     <div className=" header mx-auto ">
     <img  src={logo} alt="" className='logo me-2'/>
-      <a className=" navbar-brand  fw-bolder fs-2 " href="/logo">Welfare Program</a>
-      <h3> Social welfare Program For Orphan Children's</h3>
-      <h2>Total Budget : <span className='fw-bold'>$200 Million</span></h2>
+      <h3>Welcome to Celebrities house</h3>
+      <h2>Total Budget : <span className='fw-bold'>$800 Million</span></h2>
     </div>
   </div>
 </nav>
