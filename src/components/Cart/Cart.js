@@ -17,7 +17,7 @@ const Cart = (props) => {
     <div >
     <div className=" card cart bg-light  ">
     <div className="card-body">
-   <h4>Total Celebrities : {props.cart.length} </h4>
+   <h4>Total Celebrities Found here : {props.cart.length} </h4>
   <div>
   {
     // add person file 
